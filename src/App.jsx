@@ -7,7 +7,7 @@ import Mentoria from "./pages/mentoria/Mentoria";
 import EventosEPalestras from "./pages/eventosEP/EventosEPalestras";
 import Usuario from "./pages/usuario/Usuario";
 import Header from "./components/header/Header";
-import Footer from "./components/Footer/Footer";
+import Footer from "./components/footer/Footer";
 
 const App = () => {
   return (
