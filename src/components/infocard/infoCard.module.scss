@@ -1,0 +1,52 @@
+$cor-Primaria: #205691;
+$cor-Secundaria:#FD7267;
+$cor-Texto: #FFFFFF;
+$cor-Borda:#00AAFF;
+
+.article{
+
+    max-width: 357px;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+       
+    h2{
+        font-family: "Source Sans 3", sans-serif;   
+        font-size: 30px;
+        font-weight: bold;
+        color:$cor-Primaria
+    }
+
+    p{
+        font-family: "Inter", sans-serif;
+        font-weight: 400;
+        color: $cor-Primaria;
+        text-align: center;
+    }
+
+    button{
+        width: 200px;
+        height: 50px;
+        background-color: $cor-Primaria;
+        color: $cor-Texto;
+        border: none;
+        font-size: 1.2rem;
+        font-family: "Source Sans 3", sans-serif;
+        font-weight: 600;
+        cursor: pointer;
+        border-radius: 10px;
+    }
+
+    img{
+       max-width: 100%;
+       min-width: 0;
+       height: 40%;
+       width:100%;
+       border-radius: 10px;
+       object-fit: cover;  
+    }
+
+}
