@@ -1,4 +1,4 @@
-import s from "./InfoCard.module.scss";
+import s from "./infoCard.module.scss";
 import Swal from "sweetalert2";
 
 const mostrarAlerta = () => {
