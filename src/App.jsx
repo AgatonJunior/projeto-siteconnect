@@ -8,6 +8,7 @@ import EventosEPalestras from "./pages/eventosEP/EventosEPalestras";
 import Usuario from "./pages/usuario/Usuario";
 import Header from "./components/header/Header";
 import Footer from "./components/footer/Footer";
+import Forms from "./pages/formsCadastro/Forms";
 
 const App = () => {
   return (
@@ -21,6 +22,7 @@ const App = () => {
         <Route path="/mentoria" element={<Mentoria />} />
         <Route path="/eventosEP" element={<EventosEPalestras />} />
         <Route path="/usuario" element={<Usuario />} />
+        <Route path="/forms" element={<Forms />} />
       </Routes>
       
       <Footer />
